@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "npx webpack serve --hot",
     "dev": "npx webpack serve --mode development",
     "build": "npx webpack --mode development",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -25,8 +26,8 @@
     "webpack-dev-server": "^3.11.2"
   },
   "dependencies": {
-    "react": "^17.0.1",
-    "react-dom": "^17.0.1",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
     "react-redux": "^7.2.2",
     "redux": "^4.0.5",
     "serve": "^11.3.2"
