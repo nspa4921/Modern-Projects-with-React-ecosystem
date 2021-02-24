@@ -1,0 +1,41 @@
+[33mcommit 94999500ce21d0133e6dd1dac480e184b4c469de[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: Nemo <nemo.spaske@live.com>
+Date:   Wed Feb 17 09:28:50 2021 +0100
+
+    creating a thunk
+
+[33mcommit 894737c7c0989f07720ece70bd1b093a2b8158e1[m
+Author: Nemo <nemo.spaske@live.com>
+Date:   Sun Feb 14 10:25:03 2021 +0100
+
+    persisting, Mark_as_Completed action
+
+[33mcommit 636d8996a5dbd97f98dffee5a88ac050dba9019e[m
+Author: Nemo <nemo.spaske@live.com>
+Date:   Sat Feb 13 09:47:16 2021 +0100
+
+    react --hot loader fixed
+
+[33mcommit 3e9103accb69368dba6fe5f9a1d9dea3e691d5dc[m
+Author: Nemo <nemo.spaske@live.com>
+Date:   Fri Feb 12 14:38:37 2021 +0100
+
+    Running a React-Reduxn
+
+[33mcommit 436ba51ebae2a0d50ecc6cef71c75c8541b0a874[m
+Author: Nemo <nemo.spaske@live.com>
+Date:   Thu Feb 11 10:40:20 2021 +0100
+
+    reducers created
+
+[33mcommit 03ce74238d8806dc5b492f66b8dc805b1ad1172a[m
+Author: Nemo <nemo.spaske@live.com>
+Date:   Thu Feb 11 10:28:54 2021 +0100
+
+    Redux action created
+
+[33mcommit 49e58f91625a63c0ad2da1dbee8c0385643efd2b[m
+Author: Nemo <nemo.spaske@live.com>
+Date:   Wed Feb 10 19:58:14 2021 +0100
+
+    first commit

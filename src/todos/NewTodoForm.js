@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { connect } from 'react-redux';
+import { getTodos } from './selectors';
 import { addTodoRequest } from './thunks';
 import './NewTodoForm.css';
 
@@ -11,7 +12,7 @@ const NewTodoForm = ({ todos, onCreatePressed }) => {
             <input
                 className="new-todo-input"
                 type="text"
-                placeholder="Type your new todo here"
+                placeholder="Type your new todo here"  
                 value={inputValue}
                 onChange={e => setInputValue(e.target.value)} />
             <button
@@ -31,7 +32,7 @@ const NewTodoForm = ({ todos, onCreatePressed }) => {
 };
 
 const mapStateToProps = state => ({
-    todos: state.todos,
+    todos: getTodos(state),
 });
 
 const mapDispatchToProps = dispatch => ({
