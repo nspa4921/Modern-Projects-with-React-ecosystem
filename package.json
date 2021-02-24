@@ -7,27 +7,32 @@
     "start": "npx webpack serve --hot",
     "dev": "npx webpack serve --mode development",
     "build": "npx webpack --mode development",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha \"src/**/*.test.js\" --require @babel/register --recursive"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@babel/cli": "^7.12.13",
-    "@babel/core": "^7.12.13",
-    "@babel/plugin-transform-runtime": "^7.12.15",
-    "@babel/preset-env": "^7.12.13",
+    "@babel/cli": "^7.13.0",
+    "@babel/core": "^7.13.1",
+    "@babel/plugin-transform-runtime": "^7.13.7",
+    "@babel/preset-env": "^7.13.5",
     "@babel/preset-react": "^7.12.13",
+    "@babel/register": "^7.13.0",
     "babel-loader": "^8.2.2",
+    "chai": "^4.3.0",
     "css-loader": "^5.0.2",
+    "mocha": "^8.3.0",
     "react-hot-loader": "^4.5.3",
     "style-loader": "^2.0.0",
-    "webpack": "^5.21.2",
+    "webpack": "^5.24.2",
     "webpack-cli": "^4.5.0",
     "webpack-dev-server": "^3.11.2"
   },
   "dependencies": {
-    "@babel/runtime": "^7.12.13",
+    "@babel/runtime": "^7.13.7",
+    "fetch-mock": "^9.11.0",
+    "node-fetch": "^2.6.1",
     "react": "^16.14.0",
     "react-dom": "^16.14.0",
     "react-redux": "^7.2.2",
@@ -38,6 +43,7 @@
     "redux-thunk": "^2.3.0",
     "reselect": "^4.0.0",
     "serve": "^11.3.2",
+    "sinon": "^9.2.4",
     "styled-components": "^5.2.1"
   }
 }
